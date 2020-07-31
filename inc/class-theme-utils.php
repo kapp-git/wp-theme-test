@@ -8,6 +8,8 @@ class Theme_Utils extends Theme_Core {
 
 	public function get_text() {
 		// COMPLETE THIS FUNCTION TO RETURN THE TEXT 'This is Kapp Theme' inside Theme_Core class
+		$_introduction = Theme_Core::instance()->text();
+		return $_introduction;
 	}
 
 	/**

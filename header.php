@@ -17,7 +17,7 @@
 	<?php echo Theme_Utils::instance()->greeting(); ?>
 	<p>
 	<?php
-	echo esc_html_e( 'Hey ' );
+    echo esc_html_e( 'Hey Chris' );
 	do_action( 'user-greeting' );
 	?>
 	</p>
